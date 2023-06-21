@@ -27,9 +27,6 @@ def write_token(token: str):
         with open("token.txt", 'w', encoding='UTF-8') as f:
             f.write(base64.urlsafe_b64encode(token.encode()).decode())
         func.success("写入成功")
-        func.pause_and_exit()
-    else:
-        func.pause_and_exit()
 
 
 def read_token():

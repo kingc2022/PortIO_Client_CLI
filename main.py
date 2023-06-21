@@ -27,6 +27,7 @@ def main():
                 func.exit()
             elif op == 1:
                 oper.update_token()
+                oper.start_tunnel()
             else:
                 func.error("输入不合法")
                 func.pause_and_exit()
