@@ -7,7 +7,7 @@ import token_op
 
 
 def main():
-    func.set_title("PortIO 命令行启动器 - Build 2023.01")
+    func.set_title("PortIO 命令行启动器 - Build 2023.02")
     func.clear_screen()
     print(message.WELCOME)
     token_str = token_op.read_token()
